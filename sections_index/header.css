@@ -1,7 +1,7 @@
 /* Styles généraux */
 .header {
     width: 100%;
-    min-height: 100px;
+    min-height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -34,11 +34,11 @@ a {
 }
 
 .nav__Logo {
-    font-size: 40px;
+    font-size: 20px;
 }
 
-.nav__Logo-img {
-    width: 200px;
+.Logo {
+    width: 400px;
     height: auto;
 }
 

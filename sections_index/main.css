@@ -14,8 +14,8 @@
     justify-content: space-around;
     gap: 30px;
     padding: 20px 10px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,8,112,1) 71%, rgba(0,212,255,1) 100%);
+    background: rgb(27,160,215);
+background: linear-gradient(90deg, rgba(27,160,215,1) 0%, rgba(0,211,254,1) 100%);
 }
 
 .main__hero {
