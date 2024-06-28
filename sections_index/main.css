@@ -28,7 +28,6 @@
 .main__hero {
     display: flex;
     align-items: center;
-    
     gap: 50px;
     color: rgb(var(--secondary-color));
 }
@@ -128,12 +127,13 @@
 }
 
 .main__section {
-    width: 100%;
+    width: 80%;
     margin-top: 40px;
     padding: 30px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 /* Titres des sections principales */
@@ -164,8 +164,6 @@
 .values__list {
     margin-top: 10px;
     padding-left: 20px;
-   
-   
 }
 
 /* Styles pour les témoignages */
@@ -184,4 +182,11 @@
 
 .cta{
     font-size: 20px;
+}
+
+.main__section_principale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
