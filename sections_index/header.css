@@ -11,10 +11,10 @@
 }
 
 .img-menu {
-    width: 40px;
+    width: 10px;
     height: auto;
     background-color: rgb(var(--secondary-color));
-    border-radius: 5px;
+    border-radius: 35px;
 }
 
 

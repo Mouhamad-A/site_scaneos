@@ -12,13 +12,13 @@
     max-width: 1120px;
     display: flex;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: flex-start;
     padding: 0 10px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .footer__horaire, .footer__contact, .footer__info {
-    margin-bottom: 20px; /* Add some space between elements */
+    margin-bottom: 20px;
 }
 
 .footer__Adresse {
