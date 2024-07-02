@@ -21,6 +21,9 @@
     margin-bottom: 20px;
 }
 
+.services h1{
+    color:rgb(16,82,110);
+}
 .intro {
     padding-top: 60px;
     max-width: 800px;
