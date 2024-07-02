@@ -70,6 +70,7 @@ a {
     color: rgb(var(--secondary-color)); 
 }
 
+
 .nav__mobile-menu {
     display: none;
 }
@@ -135,6 +136,7 @@ a {
     background-color: rgb(var(--red-color));
     color: rgb(var(--secondary-color)); 
 }
+
 .main {
     display: flex;
     flex-direction: column;
