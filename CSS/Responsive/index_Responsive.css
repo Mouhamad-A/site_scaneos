@@ -1,0 +1,145 @@
+/* Pour les écrans entre 760px et 1000px */
+@media (max-width: 600px) {
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .nav__menu__container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Logo {
+        width: 200px;
+    }
+
+    .img-menu {
+        width: 20px;
+    }
+
+    .main__hero {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main__hero-title {
+        font-size: 30px;
+    }
+
+    .main__hero-description-p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .main__hero-button {
+        padding: 20px;
+    }
+    .banner-image {
+        width: 70%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+       
+    }
+    .button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .main__expertise_containers {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        gap: 50px;
+    }
+
+    .main__containers_items {
+        width: 90%;
+        height: auto;
+       
+    }
+
+    .main__section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .main__section-title {
+        font-size: 30px;
+    }
+
+    .solution__description, .about__description, .values__list, .testimonial__quote, .blog-post__content, .cta__list {
+        font-size: 16px;
+    }
+}
+
+/* Pour les écrans moyens (tablettes) */
+@media (max-width: 1024px) {
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .nav__menu__container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Logo {
+        width: 300px;
+    }
+
+    .img-menu {
+        width: 20px;
+    }
+
+    .main__hero {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main__hero-title {
+        font-size: 35px;
+    }
+
+    .main__hero-description-p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .main__hero-button {
+        padding: 30px;
+    }
+
+    .button {
+        font-size: 25px;
+        padding: 15px 25px;
+    }
+
+    .main__expertise_containers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__containers_items {
+        width: 80%;
+        height: auto;
+    }
+
+    .main__section {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .main__section-title {
+        font-size: 35px;
+    }
+
+    .solution__description, .about__description, .values__list, .testimonial__quote, .blog-post__content, .cta__list {
+        font-size: 18px;
+    }
+}

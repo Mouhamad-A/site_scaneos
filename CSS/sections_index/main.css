@@ -3,85 +3,93 @@
     flex-direction: column;
     width: 100%;
     flex: 1;
-    
-
 }
 
 .main__container {
     width: 100%;
-   
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    gap: 10px;
-    padding-bottom: 50px;
-    background: rgb(16,82,110);
+    justify-content: center;
+   
+    padding: 50px 0;
     background: linear-gradient(90deg, rgba(16,82,110,1) 0%, rgba(0,211,254,1) 100%);
-    
-}
-
-.main__hero-title-description{
-    display: flex;
-    flex-direction: column;
 }
 
 .main__hero {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 50px;
-    color: rgb(var(--secondary-color));
+    color: #fff;
+    width: 80%;
 }
 
-.main__hero-description-p{
+.main__hero-title-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: #fff;
+    gap: 20px;
+    
+}
+
+.banner-image {
+    width: 40%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+
+.main__hero-description-p {
+    width: 90%;
     font-size: 25px;
-    width: 50%;
-    text-align: center;
-    margin: 0 auto;
     font-weight: 200;
     font-family: "Montserrat", sans-serif;
-
 }
+
 .main__hero-title {
-    font-weight: var(--headline-font-weight);
-    font-size: 60px;
-    text-align: center;
-    padding: 20px;
-}
-
-.main__img {
-    width: 700px;
-    height: auto;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .main__hero-button {
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+    padding: 50px;
 }
 
 .button {
     padding: 15px 30px;
-    color: rgb(var(--secondary-color));
-    background: rgb(83, 83, 83);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
     font-size: 30px;
-    border: 3px solid white;
+    border: 3px solid #fff;
     font-weight: 700;
     cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .button:hover {
-    color: rgb(var(--secondary-color));
-    background-color: rgb(83, 83, 83, 0.5);
-}
-
-.icon-img {
-    width: 40px;
-    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
 }
 
 .main__description-title-p {
     text-align: center;
-    font-size: 50px;
-    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 
 .main__expertise_containers {
