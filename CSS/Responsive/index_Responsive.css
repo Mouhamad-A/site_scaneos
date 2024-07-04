@@ -108,6 +108,12 @@
         width: 75px;
     }
     
+    .main__container{
+        width: 100%;
+        padding: 20px;
+    }
+
+    
     .nav__menu-items {
         display: none;
     }
@@ -177,6 +183,10 @@
         font-size: 35px;
     }
 
+    .banner-image{
+        width: 70%;
+        height: auto;
+    }
     .solution__description, .about__description, .values__list, .testimonial__quote, .blog-post__content, .cta__list {
         font-size: 18px;
     }
