@@ -3,8 +3,6 @@
     flex-direction: column;
     width: 100%;
     flex: 1;
-    
-
 }
 
 .main__hero {
@@ -21,6 +19,24 @@
     margin-bottom: 20px;
 }
 
+.intro {
+    padding-top: 60px;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+}
 
 .Conditions {
     background-color: #ffffff;
@@ -29,23 +45,24 @@
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.Conditions {
-    font-size: var(--subheadline-font-size);
-    line-height: 1.6;
+.Conditions h3 {
+    color: rgb(16,82,110);
+    font-size: 1.8em;
     margin-bottom: 20px;
 }
 
 .Conditions ul {
     list-style-type: disc;
     margin-left: 20px;
-
 }
 
 .Conditions li {
-    font-size: var(--subheadline-font-size);
+    font-size: 1.1em;
     line-height: 1.6;
-    color: rgb(16,82,110);
-    padding: 10px;
+    color: #666;
 }

@@ -3,13 +3,12 @@
     flex-direction: column;
     width: 100%;
     flex: 1;
-    
-
 }
 
 .main__hero {
     background-color: rgb(16,82,110);
     color: #fff;
+    text-align: center;
     display: flex;
     padding: 60px 20px;
     justify-content: center;
@@ -21,10 +20,10 @@
 }
 
 .intro {
+    padding-top: 60px;
     max-width: 800px;
     margin: 0 auto 40px;
     text-align: center;
-    padding-top: 60px;
 }
 
 .intro h2 {
@@ -46,6 +45,9 @@
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .matériel h3 {

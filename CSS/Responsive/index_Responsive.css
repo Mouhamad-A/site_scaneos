@@ -1,22 +1,36 @@
 /* Pour les écrans entre 760px et 1000px */
-@media (max-width: 600px) {
+@media (min-width: 490px) and (max-width: 1000px){
     .header__nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+
+    .nav__mobile-menu {
+        display: block;
+    }
+
+    .Logo {
+        max-width: 250px;
+    }
+
+    .img-menu{
+        width: 60px;
+        height: auto;
+    }
+
+    .nav__menu__container {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    
-    .nav__menu__container {
-        flex-direction: column;
-        gap: 20px;
-    }
 
-    .Logo {
-        width: 200px;
-    }
-
-    .img-menu {
-        width: 20px;
+    .nav__menu-items {
+        font-size: 1.2em;
     }
 
     .main__hero {
@@ -74,28 +88,52 @@
     .solution__description, .about__description, .values__list, .testimonial__quote, .blog-post__content, .cta__list {
         font-size: 16px;
     }
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .col {
+        text-align: center;
+    }
+
+    .footer .col h3 {
+        font-size: 1.2em;
+    }
 }
 
 /* Pour les écrans moyens (tablettes) */
-@media (max-width: 1024px) {
-    .header__nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
+@media (max-width: 480px) {
+    .nav__Logo-img {
+        width: 75px;
     }
     
-    .nav__menu__container {
-        flex-direction: column;
-        gap: 30px;
+    .nav__menu-items {
+        display: none;
     }
+
+    .nav__mobile-menu {
+        display: block;
+    }
+
+    .header__nav {
+        justify-content: space-between;
+    }
+
 
     .Logo {
-        width: 300px;
+        width: 100%;
+    }
+    .nav__menu-items {
+        display: none;
+    }
+    
+    
+    .img-menu{
+        width: 40px;
+        height: auto;
     }
 
-    .img-menu {
-        width: 20px;
-    }
 
     .main__hero {
         flex-direction: column;
@@ -141,5 +179,26 @@
 
     .solution__description, .about__description, .values__list, .testimonial__quote, .blog-post__content, .cta__list {
         font-size: 18px;
+    }
+    .footer {
+        padding:20px;
+        width: 100%;
+       
+    }
+
+    .footer .col h3 {
+        font-size: 1em;
+       
+    }
+
+    .footer .col p,
+    .footer .col a {
+        font-size: 0.9em;
+       
+    }
+
+    .social-icons a {
+        font-size: 20px;
+        
     }
 }

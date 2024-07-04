@@ -5,6 +5,7 @@
 @import url('./sections_Conditions_dutilisation/header.css');
 @import url('./sections_Conditions_dutilisation/main.css');
 @import url('./sections_Conditions_dutilisation/footer.css');
+@import url('./Responsive/Conditions_Responsive.css');
 
 :root{
     --font-family:"Poppins",sans-serif;

@@ -26,7 +26,8 @@
     margin-bottom: 15px;
 }
 
-.footer .col p, .footer .col a {
+.footer .col p,
+.footer .col a {
     margin: 5px 0;
     color: #bbb;
     text-decoration: none;

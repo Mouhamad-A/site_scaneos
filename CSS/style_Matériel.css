@@ -4,6 +4,7 @@
 @import url('./sections_Matériel/header.css');
 @import url('./sections_Matériel/main.css');
 @import url('./sections_Matériel/footer.css');
+@import url('./Responsive/Matériel_Responsive.css');
 
 :root{
     --font-family:"Poppins",sans-serif;

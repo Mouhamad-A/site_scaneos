@@ -5,6 +5,7 @@
 @import url('./sections_Politique_de_confidentialité/header.css');
 @import url('./sections_Politique_de_confidentialité/main.css');
 @import url('./sections_Politique_de_confidentialité/footer.css');
+@import url('./Responsive/Politique_Responsive.css');
 
 :root{
     --font-family:"Poppins",sans-serif;
