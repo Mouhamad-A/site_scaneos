@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./CSS/style_Mentions_légales.css">
-        <link rel="shortcut icon" href="assets/icon_onglet.png" type="image/png+xml">
-        <title>SCANEOS</title>
-    </head>
-<body>
-        <header class="header">
-            <nav class="header__nav">
-                <div class="nav__Logo">
 
-                    <a href="index.html"><img class="Logo" src="assets/Logo.png" alt="Logo"></a>
-                </div>
-                <div class="nav__menu">
-                    <ul class="nav__menu__container">
-                        <li class="nav__menu-items"><a href="Solution.html">Solution</a></li>
-                        <li class="nav__menu-items"><a href="Matériel.html">Matériel</a></li>
-                        <li class="nav__menu-items"><a href="Conseil.html">Conseil</a></li>
-                        <li class="nav__menu-items"><a href="Services.html">Services</a></li>
-                    </ul>
-                </div>
-                <div class="nav__mobile-menu" id="navMobileMenu">
-                    <img class="img-menu" src="assets/menu.svg" alt="Menu">
-                </div>
-            </nav>
-        </header>
-    
-        <div class="mobile-menu" id="mobileMenu">
-            <button class="mobile-menu__close" id="mobileMenuClose">&times;</button>
-               <nav class="mobile-menu__nav">
-                <p class="mobile-p"><a href="Solution.html">Solution</a></p>
-                <p class="mobile-p"><a href="Matériel.html">Matériel</a></p>
-                <p class="mobile-p"><a href="Conseil.html">Conseil</a></p>
-                <p class="mobile-p"><a href="Services.html">Services</a></p>
-               </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style_Mentions_légales.css">
+    <link rel="shortcut icon" href="assets/icon_onglet.png" type="image/png+xml">
+    <title>SCANEOS</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="nav__Logo">
+
+                <a href="index.html"><img class="Logo" src="assets/Logo.png" alt="Logo"></a>
+            </div>
+            <div class="nav__menu">
+                <ul class="nav__menu__container">
+                    <li class="nav__menu-items"><a href="Solution.html">Solution</a></li>
+                    <li class="nav__menu-items"><a href="Matériel.html">Matériel</a></li>
+                    <li class="nav__menu-items"><a href="Conseil.html">Conseil</a></li>
+                    <li class="nav__menu-items"><a href="Services.html">Services</a></li>
+                </ul>
+            </div>
+            <div class="nav__mobile-menu" id="navMobileMenu">
+                <img class="img-menu" src="assets/menu.svg" alt="Menu">
+            </div>
+        </nav>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu__close" id="mobileMenuClose">&times;</button>
+        <nav class="mobile-menu__nav">
+            <p class="mobile-p"><a href="Solution.html">Solution</a></p>
+            <p class="mobile-p"><a href="Matériel.html">Matériel</a></p>
+            <p class="mobile-p"><a href="Conseil.html">Conseil</a></p>
+            <p class="mobile-p"><a href="Services.html">Services</a></p>
+        </nav>
+    </div>
+
+    <main>
+        <div class="main__hero">
+            <h1>Mentions légales</h1>
         </div>
 
-        <main>
-            <div class="main__hero">
-                <h1>Mentions légales</h1>
-            </div>
-
-            <section class="Mentions_légales">
+        <section class="Mentions_légales">
             <ul>
                 <li>Nom de l'entreprise : SCANEOS</li>
                 <li>SIREN : 948 034 269 00027</li>
@@ -59,9 +61,9 @@
                     </ul>
                 </li>
             </ul>
-               
-            </section>
-        </main>
+
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
@@ -73,9 +75,15 @@
             </div>
             <div class="col">
                 <h3>Informations</h3>
-                <a href="Mentions_légales.html"><p>Mentions légales <br></p></a>
-                <a href="Conditions_d_utilisation.html"><p>Conditions d'utilisation <br></p></a>
-                <a href="Politique_de_confidentialité.html"><p>Politique de confidentialité</p></a>
+                <a href="Mentions_légales.html">
+                    <p>Mentions légales <br></p>
+                </a>
+                <a href="Conditions_d_utilisation.html">
+                    <p>Conditions d'utilisation <br></p>
+                </a>
+                <a href="Politique_de_confidentialité.html">
+                    <p>Politique de confidentialité</p>
+                </a>
             </div>
             <div class="col social-icons">
                 <h3>Suivez-nous</h3>
@@ -85,6 +93,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/main.js"></script>
+    <script src="./Js/main.js"></script>
 </body>
+
 </html>
