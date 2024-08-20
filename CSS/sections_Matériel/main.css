@@ -79,12 +79,12 @@
     height: auto;
 }
 
+.img_matériel1 {
+    width: 25%;
+    height: auto;
+}
+
 .matériel_div-img {
     display: flex;
     justify-content: center;
-}
-
-.img_matériel3 {
-    width: 10%;
-    height: auto;
 }
