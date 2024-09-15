@@ -50,8 +50,10 @@
 .main__hero-description-p {
     width: 90%;
     font-size: 25px;
-    font-weight: 200;
+    font-weight: 100;
     font-family: "Montserrat", sans-serif;
+
+
 }
 
 .main__hero-title {
@@ -89,7 +91,7 @@
     font-size: 30px;
     font-weight: 700;
     color: #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .main__expertise_containers {
@@ -152,6 +154,7 @@
 .main__description {
     text-align: center;
     font-size: 12px;
+    font-weight: 500;
 }
 
 .main__section {
@@ -207,8 +210,30 @@
     margin-bottom: 20px;
 }
 
-.cta {
-    font-size: 20px;
+
+
+.cta h3 {
+    color: rgb(16, 82, 110);
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.cta li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
 }
 
 .main__section_principale {

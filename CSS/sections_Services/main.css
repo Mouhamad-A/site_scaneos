@@ -6,7 +6,7 @@
 }
 
 .main__hero {
-    background-color: rgb(16,82,110);
+    background-color: rgb(16, 82, 110);
     color: #fff;
     text-align: center;
     display: flex;
@@ -51,7 +51,7 @@
 }
 
 .services h3 {
-    color: rgb(16,82,110);
+    color: rgb(16, 82, 110);
     font-size: 1.8em;
     margin-bottom: 20px;
 }
